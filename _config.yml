@@ -24,7 +24,7 @@ github_username:  boopited
 # Build settings
 markdown: kramdown
 # theme: minima
-remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
 plugins:
   - jekyll-seo-tag
 
@@ -43,7 +43,7 @@ search_tokenizer_separator: /[\s/]+/
 # Aux links for the upper right navigation
 aux_links:
   "My GitHub":
-    - "//github.com/boopited"
+    - "//github.com/boopited/CookbookOfAndroidCars"
 
 # Heading anchor links appear on hover over h1-h6 tags in page content
 # allowing users to deep link to a particular heading on a page.
