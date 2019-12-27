@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+nav_order: 0
 ---
 
 #### Find me here:
@@ -15,4 +16,4 @@ permalink: /about/
 **just-the-docs**: [pmarsceill/just-the-docs](https://github.com/pmarsceill/just-the-docs)
 
 
-##### Powered by [Github Pages](https://pages.github.com/) and [Jekyll](https://github.com/jekyll/jekyll)
+##### Powered by  [Jekyll](https://github.com/jekyll/jekyll)
