@@ -3,19 +3,19 @@ layout: home
 nav_order: 1
 ---
 
-# Brief Of Content
+# 内容概述
 
-Notes about Android Cars, more precisely Android Automotive OS.
+Android Cars笔记，更准确地说是Android Automotive OS
 
-Android Auto is not my domain, and you may want to check [official guide](https://developer.android.com/training/cars#automotive-os).
+Android Auto不开源，不在范围，有兴趣可以参考 [官方文档](https://developer.android.com/training/cars#automotive-os).
 
-I worked on vehicle HMI based on AOSP in 2019, and this is my notebook.
+2019年基于AOSP做了汽车HMI的开发，再次做一下梳理。
 
-Topics below will be included (slowly):
+可能包含的主题（写的特别慢）：
 
-- Stucture
-- Vehicle Properties
-- Audio
+- 架构
+- 汽车属性
+- 音频
 - HMI
-- Security
+- 安全
 - ...
