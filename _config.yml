@@ -18,7 +18,7 @@ email: xingled@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Notes about Android Cars. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/boopited/CookbookOfAndroidCars" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://github.com/boopited/CarDocs" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  boopited
 
 # Build settings
@@ -43,7 +43,7 @@ search_tokenizer_separator: /[\s/]+/
 # Aux links for the upper right navigation
 aux_links:
   "My GitHub":
-    - "//github.com/boopited/CookbookOfAndroidCars"
+    - "//github.com/boopited/CarDocs"
 
 # Heading anchor links appear on hover over h1-h6 tags in page content
 # allowing users to deep link to a particular heading on a page.
