@@ -10,6 +10,8 @@ nav_order: 2
 
 车载 HAL定义 OEM 可以实现的车辆属性的接口。包含属性元数据（例如，车辆属性的类型(int, float...) 以及允许使用哪些更改模式）。VHAL接口基于每个属性的访问方式定义了一组抽象方法，如读、写、订阅等。
 
+> 本文接口均为C，相应的在Car Service中有Java映射
+
 ## 属性接口
 
 VHAL有如下接口：
@@ -120,4 +122,4 @@ VHAL定义的区域类型：
   - VehiclePropertyType按需设置
 - 通过CarPropertyManager (Java) 或Vehicle Network Service API (native)访问属性
 
-车载地图服务(Vehicle Map Service)通过发布/订阅机制，共享地图数据给客户端，这个是给Android Automotive用的，AOSP中没有相关例子。但VHAL 2.0中定义了VmsMessageType，其中有VMS支持V消息类型
+> 车载地图服务(Vehicle Map Service)通过发布/订阅机制，共享地图数据给客户端，VHAL 2.0中定义了VmsMessageType，其中有VMS支持V消息类型。
