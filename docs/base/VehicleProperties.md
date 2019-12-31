@@ -99,6 +99,8 @@ VHAL定义的区域类型：
 
 以空调温度为例，`get`和`set`流程分别如下：
 > CS = CarService, VNS = VehicleNetworkService, VHAL = Vehicle HAL
+>
+> VNS已经被删除，CS会直接访问VHAL
 
 ![](/assets/images/vehicle_hvac_get.png)
 
@@ -120,6 +122,6 @@ VHAL定义的区域类型：
   - VehiclePropertyGroup使用VENDOR
   - VehicleArea按需设置
   - VehiclePropertyType按需设置
-- 通过CarPropertyManager (Java) 或Vehicle Network Service API (native)访问属性
+- 通过CarPropertyManager (Java) 访问属性
 
-> 车载地图服务(Vehicle Map Service)通过发布/订阅机制，共享地图数据给客户端，VHAL 2.0中定义了VmsMessageType，其中有VMS支持V消息类型。
+> 车载地图服务(Vehicle Map Service)通过发布/订阅机制，共享地图数据给客户端，VHAL 2.0和CarService中有相关定义。
