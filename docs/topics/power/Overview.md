@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "总览"
-parent: "电源管理"
+title:  "电源管理"
+parent: "电源"
 grand_parent: "专题"
 date:   2020-01-10
 nav_order: 0
